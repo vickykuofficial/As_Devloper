@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<img src="Pro.jpg" alt="Profile Photo" class="profile-photo">
+  <title>Vicky Kumar Sharma - Portfolio</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #f1f1f1;
+    }
+
+/* Profile Photo Styling */
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 0 auto 20px;
+}
+
+    header {
+      background: linear-gradient(135deg, #007bff, #00d4ff);
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    /* Navigation */
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #00d4ff;
+      margin: 0 15px;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #007bff;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    /* Skills Section */
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    .skills li {
+      list-style: none;
+      padding: 15px 20px;
+      background: #333;
+      border-radius: 8px;
+      font-size: 1.1em;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Gallery Section */
+    .gallery {
+      display: flex;
+      overflow-x: scroll;
+      gap: 20px;
+      scroll-behavior: smooth;
+      padding: 10px;
+    }
+    .gallery img {
+      max-height: 250px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    /* Contact Section */
+    footer {
+      background: #007bff;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    footer a {
+      color: #00d4ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Vicky Kumar Sharma</h1>
+  <p>Computer Engineering Student | DSEU</p>
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="Photos.html">Gallery</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I'm Vicky, a Computer Engineering student passionate about technology. I specialize in Web Development, Graphic Design, and Video Editing. I'm committed to turning ideas into impactful digital solutions.</p>
+</section>
+
+<section id="skills">
+  <h2>My Skills</h2>
+  <ul class="skills">
+    <li>Web Development</li>
+    <li>Graphic Design</li>
+    <li>Microsoft Office Suite</li>
+    <li>Adobe Premiere Pro</li>
+    <li>CapCut</li>
+    <li>DaVinci Resolve</li>
+    <li>Creative Content Design</li>
+  </ul>
+</section>
+
+<section id="gallery">
+  <h2>Photo Gallery</h2>
+  <div class="gallery">
+    <img src="4.jpg" alt="Gallery Image 1">
+    <img src="3.jpg" alt="Gallery Image 1">
+    <img src="back.jpg" alt="Gallery Image 2">
+    <img src="Sharma.jpg" alt="Gallery Image 3">
+    <img src="Varsova.jpg" alt="Gallery Image 4">
+    <img src="DP.jpg" alt="Gallery Image 5">
+  </div>
+</section>
+
+<footer id="contact">
+  <p>Contact Me: <a href="mailto:shvicky@tuta.io">vicky@example.com</a></p>
+  <p>&copy; 2024 Vicky Kumar Sharma | Connect on <a href="#">LinkedIn</a></p>
+</footer>
+
+</body>
+</html>
